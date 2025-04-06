@@ -1,0 +1,46 @@
+import java.util.Scanner; // Import Scanner class for user input
+
+class TravelComputation { // Class definition
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in); // Creating Scanner object
+        
+        // Taking user input
+        System.out.println("Enter name:");
+        String name = input.nextLine(); // Fixed nextString() to nextLine()
+        
+        System.out.println("Enter fromCity:");
+        String fromCity = input.nextLine(); // Fixed nextString() to nextLine()
+        
+        System.out.println("Enter viaCity:");
+        String viaCity = input.nextLine(); // Fixed nextString() to nextLine()
+        
+        System.out.println("Enter toCity:");
+        String toCity = input.nextLine(); // Fixed nextString() to nextLine()
+        
+        System.out.println("Enter distanceFromToVia:");
+        double distanceFromToVia = input.nextDouble(); // Fixed missing parentheses
+        
+        System.out.println("Enter timeFromToVia:");
+        int timeFromToVia = input.nextInt(); // Reads integer input
+        
+        System.out.println("Enter distanceViaToFinalCity:");
+        double distanceViaToFinalCity = input.nextDouble(); // Fixed missing parentheses
+        
+        System.out.println("Enter timeViaToFinalCity:");
+        int timeViaToFinalCity = input.nextInt(); // Reads integer input
+        
+        // Calculating total distance
+        double totalDistance = distanceFromToVia + distanceViaToFinalCity;
+        
+        // Calculating total time
+        int totalTime = timeFromToVia + timeViaToFinalCity;
+        
+        // Displaying the result
+        System.out.println("The Total Distance travelled by " + name + " from " + 
+                           fromCity + " to " + toCity + " via " + viaCity +
+                           " is " + totalDistance + " km and " +
+                           "the Total Time taken is " + totalTime + " hours");
+
+        input.close(); // Closing Scanner to prevent resource leaks
+    }
+}
