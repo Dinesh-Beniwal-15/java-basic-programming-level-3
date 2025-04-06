@@ -1,0 +1,23 @@
+import java.util.Scanner;  // Import the Scanner class for user input
+
+class Totalincome {  // Class name should follow Java naming conventions (PascalCase)
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);  // Create a Scanner object for user input
+        
+        // Prompt the user to enter their income
+        System.out.println("Enter salary: ");
+        double salary = input.nextDouble();  // Read income input from the user
+        
+        // Prompt the user to enter their bonus
+        System.out.println("Enter bonus: ");
+        double bonus = input.nextDouble();  // Read bonus input from the user
+        
+        // Calculate total income by adding income and bonus
+        double totalIncome = salary+bonus;
+        
+        // Display the entered income, bonus, and total income
+        System.out.println("The income is " + salary+ ", the bonus is " + bonus + ", and the total income is " + totalIncome + ".");
+        
+        input.close();  // Close the Scanner object to free resources
+    }
+}
