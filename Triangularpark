@@ -1,0 +1,30 @@
+import java.util.Scanner;  // Import the Scanner class for user input
+
+class Triangularpark {  // Class definition
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);  // Create a Scanner object for user input
+        
+        // Prompting the user to enter the first side of the triangular park
+        System.out.println("Enter side1:");
+        double side1 = input.nextDouble();  // Reading first side length from user input
+        
+        // Prompting the user to enter the second side of the triangular park
+        System.out.println("Enter side2: ");
+        double side2 = input.nextDouble();  // Reading second side length from user input
+		
+        // Prompting the user to enter the third side of the triangular park
+        System.out.println("Enter side3:");
+        double side3 = input.nextDouble();  // Reading third side length from user input
+        
+        // Calculating the perimeter of the triangular park
+        double perimeter = side1 + side2 + side3;
+		
+        // Calculating the number of rounds required to complete 5 km
+        double rounds = 5.0 / perimeter;
+		
+        // Displaying the result
+        System.out.println("The total number of rounds the athlete will run is " + rounds + " to complete 5 km");
+        
+        input.close();  // Closing the Scanner object to free resources
+    }
+}
