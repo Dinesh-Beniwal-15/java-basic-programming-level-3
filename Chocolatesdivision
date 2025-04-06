@@ -1,0 +1,29 @@
+import java.util.Scanner;  // Import the Scanner class for user input
+
+class Chocolatesdivision {  // Class definition
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);  // Create a Scanner object for user input
+        
+        // Prompt the user to enter the total number of chocolates
+        System.out.println("Enter Number of chocolates::");
+        int numberofchocolates = input.nextInt();  // Read the number of chocolates from user input
+        
+        // Prompt the user to enter the number of children
+        System.out.println("Enter number of childrens: ");
+        int numberofchildrens = input.nextInt();  // Read the number of children from user input
+		
+        // Calculate chocolates each child gets using integer division
+		int chocolatesperchildren = numberofchocolates / numberofchildrens;
+        
+        // Calculate remaining chocolates after equal distribution
+		int remainingchocolates = numberofchocolates % numberofchildrens;
+		
+        // Displaying the result
+        System.out.println("The number of chocolates each child gets is " 
+                           + chocolatesperchildren + " and the number of remaining chocolates are " 
+                           + remainingchocolates);
+        
+        input.close();  // Closing the Scanner object to free resources
+    }
+}
+
