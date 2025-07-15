@@ -6,7 +6,7 @@ class Chocolatesdivision {  // Class definition
          
         // Prompt the user to enter the total number of chocolates
         System.out.println("Enter Number of chocolates::");   
-        int numberofchocolates = input.nextInt();  // Read the number of chocolates from user input 
+        int numberofchocolates = input.nextInt();  // Read the number of chocolates from user input  
          
         // Prompt the user to enter the number of children
         System.out.println("Enter number of childrens: ");
