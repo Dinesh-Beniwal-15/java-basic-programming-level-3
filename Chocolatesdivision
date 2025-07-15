@@ -14,7 +14,7 @@ class Chocolatesdivision {  // Class definition
 		
         // Calculate chocolates each child gets using integer division
 		int chocolatesperchildren = numberofchocolates / numberofchildrens;
-        
+         
         // Calculate remaining chocolates after equal distribution
 		int remainingchocolates = numberofchocolates % numberofchildrens;
 		
