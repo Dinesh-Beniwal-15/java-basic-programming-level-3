@@ -9,7 +9,7 @@ class HandshakeCalculator {  // Class definition
         int numberOfStudents = input.nextInt();  // Read the number of students from user input 
  
         // Calculate the maximum number of handshakes using the formula: (n * (n - 1)) / 2  
-        int maxHandshakes = (numberOfStudents * (numberOfStudents - 1)) / 2;
+        int maxHandshakes = (numberOfStudents * (numberOfStudents - 1)) / 2; 
 
         // Display the result
         System.out.println("The maximum number of handshakes possible among " 
