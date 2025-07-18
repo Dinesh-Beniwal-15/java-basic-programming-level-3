@@ -6,7 +6,7 @@ class SimpleInterestCalculator {  // Class definition
 
         // Prompt the user to enter the principal amount
         System.out.print("Enter Principal amount: ");
-        double principal = input.nextDouble();  // Read principal from user input   
+        double principal = input.nextDouble();  // Read principal from user input    
   
         // Prompt the user to enter the rate of interest
         System.out.print("Enter Rate of Interest: ");
