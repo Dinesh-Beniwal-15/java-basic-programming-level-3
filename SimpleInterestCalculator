@@ -11,7 +11,7 @@ class SimpleInterestCalculator {  // Class definition
         // Prompt the user to enter the rate of interest
         System.out.print("Enter Rate of Interest: ");
         double rate = input.nextDouble();  // Read rate of interest from user input  
-
+ 
         // Prompt the user to enter the time period in years
         System.out.print("Enter Time (in years): ");
         double time = input.nextDouble();  // Read time period from user input  
