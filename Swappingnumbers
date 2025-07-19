@@ -7,7 +7,7 @@ class Swappingnumbers {  // Class name should follow Java naming conventions (Pa
         System.out.println("Enter 1st number:");  
         double num1 = input.nextDouble();  // Read the first number from the user
         
-        // Prompt the user to enter the second number
+        // Prompt the user to enter the second number 
         System.out.println("Enter 2nd number: ");
         double num2 = input.nextDouble();  // Read the second number from the user
         
