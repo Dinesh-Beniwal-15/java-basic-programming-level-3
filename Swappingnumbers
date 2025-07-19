@@ -2,7 +2,7 @@ import java.util.Scanner;  // Import the Scanner class for user input
 
 class Swappingnumbers {  // Class name should follow Java naming conventions (PascalCase)
     public static void main(String[] args) {
-        Scanner input = new Scanner(System.in);  // Create a Scanner object for user input
+        Scanner input = new Scanner(System.in);  // Create a Scanner object for user input  
           
         System.out.println("Enter 1st number:");
         double num1 = input.nextDouble();  // Read the first number from the user
