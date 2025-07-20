@@ -4,7 +4,7 @@ class TemperatureConversion { // Class definition
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in); // Creating Scanner object for user input
          
-        // Prompting user to enter temperature in Celsius
+        // Prompting user to enter temperature in Celsius 
         System.out.println("Enter temperature in Celsius:"); 
         double celsius = input.nextDouble(); // Reading user input as a double value
          
