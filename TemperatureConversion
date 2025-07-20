@@ -11,7 +11,7 @@ class TemperatureConversion { // Class definition
         // Converting Celsius to Fahrenheit using the formula: (C * 9/5) + 32 
         double farenheitResult = (celsius * 9 / 5) + 32;
         
-        // Displaying the conversion result
+        // Displaying the conversion result 
         System.out.println("The " + celsius + " Celsius is " + farenheitResult + " Fahrenheit");
         
         input.close(); // Closing the Scanner object to prevent resource leaks
