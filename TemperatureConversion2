@@ -4,7 +4,7 @@ class TemperatureConversion2 {  // Class name should follow Java naming conventi
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);  // Create a Scanner object for user input
         
-        // Prompt the user to enter the temperature in Fahrenheit
+        // Prompt the user to enter the temperature in Fahrenheit 
         System.out.println("Enter temperature in Fahrenheit: ");
         
         double fahrenheit = input.nextDouble();  // Read the temperature input from the user
