@@ -10,7 +10,7 @@ class Totalincome {  // Class name should follow Java naming conventions (Pascal
         
         // Prompt the user to enter their bonus
         System.out.println("Enter bonus: "); 
-        double bonus = input.nextDouble();  // Read bonus input from the user
+        double bonus = input.nextDouble();  // Read bonus input from the user 
         
         // Calculate total income by adding income and bonus
         double totalIncome = salary+bonus;
