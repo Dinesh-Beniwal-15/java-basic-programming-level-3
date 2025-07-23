@@ -6,7 +6,7 @@ class TravelComputation { // Class definition
         
         // Taking user input 
         System.out.println("Enter name:");
-        String name = input.nextLine(); // Fixed nextString() to nextLine()
+        String name = input.nextLine(); // Fixed nextString() to nextLine() 
         
         System.out.println("Enter fromCity:");
         String fromCity = input.nextLine(); // Fixed nextString() to nextLine()
