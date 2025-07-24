@@ -4,7 +4,7 @@ class Triangularpark {  // Class definition
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);  // Create a Scanner object for user input
         
-        // Prompting the user to enter the first side of the triangular park
+        // Prompting the user to enter the first side of the triangular parkc
         System.out.println("Enter side1:");
         double side1 = input.nextDouble();  // Reading first side length from user input
         
