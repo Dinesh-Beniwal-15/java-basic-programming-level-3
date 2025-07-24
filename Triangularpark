@@ -12,7 +12,7 @@ class Triangularpark {  // Class definition
         System.out.println("Enter side2: ");
         double side2 = input.nextDouble();  // Reading second side length from user input
 		
-        // Prompting the user to enter the third side of the triangular park
+        // Prompting the user to enter the third side of the triangular park 
         System.out.println("Enter side3:");
         double side3 = input.nextDouble();  // Reading third side length from user input
         
