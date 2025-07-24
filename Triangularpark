@@ -13,7 +13,7 @@ class Triangularpark {  // Class definition
         double side2 = input.nextDouble();  // Reading second side length from user input
 		
         // Prompting the user to enter the third side of the triangular park 
-        System.out.println("Enter side3:");
+        System.out.println("Enter side3:"); 
         double side3 = input.nextDouble();  // Reading third side length from user input
         
         // Calculating the perimeter of the triangular park
