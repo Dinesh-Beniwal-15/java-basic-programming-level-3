@@ -1,4 +1,4 @@
-import java.util.Scanner;  // Import Scanner class for user input
+import java.util.Scanner;  // Import Scanner class for user input 
     
 class WeightConverter {  // Class definition
     public static void main(String[] args) {
